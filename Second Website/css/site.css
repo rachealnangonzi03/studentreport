@@ -1,0 +1,128 @@
+.content-heading{
+    background-color: white;
+    height: 30;
+    width: 100%;
+    font-family: cursive;
+    font-size: 40;
+    color: aquamarine;
+    
+}
+.sub{
+    font-size: 20;
+ }
+.kirey{
+    font-size: 30;
+}
+.content-h{
+   
+ font-size: 40;
+ 
+ height: 80;
+ width: 100%;
+}
+.column{
+    background-color:gray;
+    height: 200;
+    width:30%;
+    margin-bottom: 5px;
+    float: left;
+    margin-right: 20;
+    font-size: 40;
+     
+}
+.middle{
+    background-color: gray;
+    height:200 ;
+    width: 30%;
+    margin-bottom: 5px;
+    float: left;
+    margin-right: 20px;
+    font-size: 40;
+}
+.right{
+    background-color:gray;
+    height: 200;
+    width: 30%;
+    float: left;
+    font-size: 40;
+}
+.head{
+    font-size: 40;
+    margin-left: 100;
+    background-color:white;
+}
+.partners{
+    background-color: bisque;
+    height: 300;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.all{
+    background-color: gray;
+    height: 50;
+    width: 20%;
+    font-family: cursive;
+    font-size: 30;
+    margin-left: 40%;
+}
+.news{
+    font-size: 40;
+}
+.one{
+    background-color: gray;
+    height: 300;
+    width: 30%;
+    font-size: 30;
+    float: left;
+    margin-right: 20px;
+}
+#more{
+    background-color: pink;
+}
+.two{
+    background-color: whitesmoke;
+    height: 300;
+    width: 30%;
+    font-size: 30;
+    float: left;
+    margin-right: 20px;
+}
+#read{
+    background-color: pink;
+}
+.ky{
+    background-color: gray;
+    height: 300;
+    width: 30%;
+    font-size: 30;
+    float: left;
+}
+#rm{
+    background-color: pink;
+}
+.header{
+    background-image: url('../images/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+.nav-container{
+    height: 60px;
+    
+}
+.header-content{
+    height: 540px;
+    display: table;
+    text-align: center;
+}
+.content-details{
+    display: table-cell;
+    vertical-align: middle;
+}
+.content .first-section{
+    background-color: #ececec;
+    /* color:#ffffff;
+    color: white;
+    color:rgb(255,255,255); */
+}

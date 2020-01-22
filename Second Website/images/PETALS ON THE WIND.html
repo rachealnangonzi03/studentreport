@@ -1,0 +1,97 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>LESSON 2</title>
+    </head>
+    <body>
+        <style>
+            #head{
+                font-size: 60;
+                font-family:monospace;
+                
+                height: 100;
+                width: 800px;
+                color: red;
+            }
+            .cont{
+                font-size: 30;
+                font-family: fantasy;
+
+            }
+            .sub{
+                
+                height: 60;
+                width: 50%;
+                font-size: 60;
+
+
+            }
+            .end{
+                color: aquamarine;
+            }
+            .all{
+                background-image: url('./images/9.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                min-height: 800;
+            }
+
+            
+            </style>
+            <div class="all">
+            <h1 id="head">PETALS ON THE WIND</h1>
+            <div class="cont">A decade after cathy, christopher,and 
+carrie escaped from there grandparents' attic at Foxworth Hall,Petals on
+ the wind continues to follow the twisted plight of the family as they 
+attempt to put their sordid past behind them,but soon discover certain 
+secrets cant be left behind.When Cathy finds herself in an abusive 
+relationship with a fellow dancer,Julian,Chris and Cathy are forced to 
+face the forbiden feelings they developed for one another while coming 
+of age during captivity.But when tragedy strikes the Doll-angangers once
+ again,Cathy returns to Foxworth Hall to confront her grandmother and 
+seek revenge on her mother with a plan to seduce her husband Bart.When 
+Chrisruns to Cathy's side, the two are determined to start over 
+again-together. 
+            <div class="end">BASED ON THE V.C.ANDREWS BEST-SELLING NOVEL</div>
+            <div class="sub">READ MORE OF PETALS ON THE WIND</div>
+            </div>
+
+            </div>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

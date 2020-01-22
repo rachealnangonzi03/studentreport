@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title>report card</title>
+    </head>
+    <body>
+        <style>
+            .head{
+                text-align: center;
+            }
+            #school{
+                font-weight: 100%;
+                font-family: monospace;
+                font-size: 50;
+            }
+            #term{
+                font-family:monospace ;
+                font-size:40;
+            }
+            #card{
+                font-family: monospace;
+                font-size: 30;
+            }
+            .image{
+                background-image: url('./images/12.jpeg');
+                opacity: 0.6;
+                height: 700;
+            }
+            .lists{
+                color: red;
+                font-family: cursive;
+            }
+            
+            
+                
+            
+        
+        
+        
+        
+        
+        </style>
+    <div class="image">
+        <div class="head">
+            <h1 id="school">ST JOHN'S SS</h1>
+            <h2 id="term">END OF TERM TWO</h2>
+            <h3 id="card">REPORT CARD</h3>
+        </div>
+        <div>
+            <label>Name:</label>
+            <input type="Name:">
+         
+         
+             <label>class:</label>
+             <select name="Class">
+                 <option value="S1">S1</option>
+                 <option value="S2">S2</option>
+                 <option value="S3">S3</option>
+                 <option value="S4">S4</option>
+                 <option value="S5">S5</option>
+                 <option value="S6">S6</option>
+
+             </select>
+            
+         
+         
+             <label>gender:</label>
+             <select name="gender">
+                <option value="Female"> Female</option>
+                <option value="Male"> Male</option>
+                <option value="Other"> Other</option>
+
+             </select>
+        
+         
+             <label>stream:</label>
+             <select name="stream">
+                 <option value="North">North</option>
+                 <option value="South">South</option>
+             </select>
+         
+         
+             <label>Age:</label>
+             <input type="Age:">
+        </div>
+        <div>
+            <h1>SUBJECTS /100</h1>
+            <!--lists-->
+            <ul>
+            <div class="lists">
+                <li>English:     77</li>
+                <li>Mathematics: 65</li>
+                <li>Chemistry:   86</li>
+                <li>Physics:     66</li>
+                <li>Biology:     63</li>
+                <li>CRE:         78</li>
+                <li>Geography:   67</li>
+                <li>History:     82</li>
+                <li>Commerce:    89</li>
+                <li>Literature:  76</li>
+            </div>
+            </ul>
+            <label>Aggregate:</label>
+            <input type="Aggregate:">
+        </div>
+    </div>
+        <script>
+                 var studentMarks=[77,65,86,66,63,78,67,82,89,76],
+
+                 function computeTotalMark(marks){
+                console.log(marks)
+                var totalMark=0;
+
+                for (var i=0;i<data.length-1;i=i+1){
+                totalMark=totalMark+data[i];
+                console.log(totalMark);
+                }
+
+
+
+
+            }
+        
+        
+        
+        
+        
+        
+        </script>
+    </body>
+</html>
